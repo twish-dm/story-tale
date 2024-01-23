@@ -11,7 +11,7 @@ public class TaleTimeline : MonoBehaviour
 	public string CurrentTale { get; protected set; }
 	private Part m_Part;
 	
-	private void Awake()
+	private void Start()
 	{
 		m_Part = GetComponentInChildren<Part>();
 		NextTale(m_StartTale);

@@ -62,7 +62,9 @@ public class Part : MonoBehaviour
 		m_OwnerRoot.SetActive(!string.IsNullOrEmpty(m_DialogData.Owner));
 		m_OwnerName.text = m_DialogData.Owner;
 		m_DialogField.text = m_DialogData.Dialog;
-		for(int i=0; i< m_Answers.Count; i++)
+		if (m_Answers == null)
+			m_Answers = new List<Button>();
+		for (int i=0; i< m_Answers.Count; i++)
 			Destroy(m_Answers[i].gameObject);
 		m_Answers.Clear();
 		m_AnswersMap.Clear();
