@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e24b5dc3be065142808d7f0bb94d43b, type: 3}
+  m_Name: Tale_3
+  m_EditorClassIdentifier: 
+  m_Background: {fileID: 21300000, guid: 66a67440f567b23499407b966e7c46a3, type: 3}
+  m_Dialog:
+  - AnimateStartInfo: {fileID: 11400000, guid: e461b3c2886e2c94db911db70d6ea2b4, type: 2}
+    AnimateEndInfo: {fileID: 11400000, guid: 8cd615eeee163614aa4c80a708243a6e, type: 2}
+    Owner: "\u0414\u0443\u0445"
+    Dialog: "\u042F \u0441\u043B\u044B\u0448\u0443 \u0437\u0432\u0443\u043A"
+    Answers: []
+  - AnimateStartInfo: {fileID: 11400000, guid: 59e8f2e80d651c842bb07990ab55de8c, type: 2}
+    AnimateEndInfo: {fileID: 11400000, guid: 8cd615eeee163614aa4c80a708243a6e, type: 2}
+    Owner: 
+    Dialog: "\u0427\u0442\u043E \u044D\u0442\u043E \u0431\u044B\u043B\u043E?"
+    Answers: []
+  - AnimateStartInfo: {fileID: 11400000, guid: 9d1cbbec98f558f4cbde3c5ab6e3de8f, type: 2}
+    AnimateEndInfo: {fileID: 11400000, guid: eab612318f3e3e34088228a109603bdb, type: 2}
+    Owner: "\u0414\u0443\u0445"
+    Dialog: "\u0414\u0430\u043B\u044C\u0448\u0435 \u0432\u044B\u0431\u0435\u0440\u0438
+      \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0443\u044E \u043A\u043E\u043C\u043D\u0430\u0442\u0443"
+    Answers:
+    - Answer: "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u0432 \u043F\u0435\u0440\u0432\u0443\u044E
+        \u043A\u043E\u043C\u043D\u0430\u0442\u0443"
+      NextTaleName: 
+    - Answer: "\u0421\u043B\u0435\u0434\u0443\u044E\u0449\u0430\u044F \u043A\u043E\u043C\u043D\u0430\u0442\u0430(4)"
+      NextTaleName: Tale_4
+  m_NextTaleName: Tale_0
